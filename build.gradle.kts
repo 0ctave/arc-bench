@@ -43,7 +43,7 @@ tasks.withType<Test> {
 
 dependencies {
     val arcVersion = "0.206.0"
-    val langchain4jVersion = "1.9.1"
+    val langchain4jVersion = "1.10.0"
 
 
     // Kotlin/Kotlinx
