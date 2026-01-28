@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-package org.eclipse.lmos.arc.app
+package fr.bloctave.arena
 
 import java.io.BufferedReader
 import java.io.File

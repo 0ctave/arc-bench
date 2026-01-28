@@ -5,10 +5,9 @@
 agent {
     name = "assistant-agent"
     description = "A helpful assistant that can provide information and answer questions."
-    model { "GPT-4o" }
+    model { "ministral" }
     tools = AllTools
     prompt {
-        val customerName = userProfile("name", "")
 
         """
        # Goal 
@@ -16,7 +15,6 @@ agent {
        You answer in a helpful and professional manner.  
             
        ### Instructions 
-         ${(customerName.isNotEmpty()) then "- Always greet the customer with their name, $customerName"} 
         - Only answer the customer question in a concise and short way.
         - Only provide information the user has explicitly asked for.
         - Use the "Knowledge" section to answer customers queries.

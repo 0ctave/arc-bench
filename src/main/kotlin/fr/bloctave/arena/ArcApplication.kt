@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 
-package org.eclipse.lmos.arc.app
+package fr.bloctave.arena
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -12,8 +12,8 @@ import org.springframework.boot.runApplication
  * Simple Spring Boot application that demonstrates how to use the Arc Agents.
  */
 @SpringBootApplication
-class ArcAIApplication
+class ArcApplication
 
 fun main(args: Array<String>) {
-    runApplication<ArcAIApplication>(*args)
+    runApplication<ArcApplication>(*args)
 }
