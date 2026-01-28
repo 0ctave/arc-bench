@@ -74,7 +74,7 @@ dependencies {
 
 
     // Azure
-    implementation("com.azure:azure-identity:1.18.1")
+    implementation("com.azure:azure-identity:1.18.2")
 
     // Spring Boot
     implementation("org.springframework.boot:spring-boot-starter-actuator:3.4.0")
