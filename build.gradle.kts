@@ -100,7 +100,7 @@ dependencies {
 
 
     // Test
-    testImplementation("org.testcontainers:mongodb:1.21.3")
+    testImplementation("org.testcontainers:mongodb:1.21.4")
     testImplementation("org.springframework.boot:spring-boot-testcontainers:3.4.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test:3.4.0")
     testImplementation("io.opentelemetry:opentelemetry-sdk-testing")
