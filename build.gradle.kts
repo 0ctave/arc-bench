@@ -61,7 +61,7 @@ dependencies {
     implementation("org.eclipse.lmos:arc-langchain4j-client:${arcVersion}")
 
     // Tracing
-    implementation(platform("io.micrometer:micrometer-tracing-bom:1.6.0"))
+    implementation(platform("io.micrometer:micrometer-tracing-bom:1.6.2"))
     implementation("io.micrometer:micrometer-tracing")
     implementation("io.micrometer:micrometer-tracing-bridge-otel")
 
